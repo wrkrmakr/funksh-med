@@ -97,11 +97,11 @@ p {
 	}
 	#social {
 		width:60%;
-		left:-3%;
+		left:9%;
 	}
 	#container{
 		height:74%;
-		margin-top:17%;
+		margin-top:10%;
 	}
 	#logo img {
 		margin:15% auto;
@@ -115,9 +115,13 @@ p {
 	#headline {
 		padding-top:6%;
 	}
+	#container{
+		height:74%;
+		margin-top:13%;
+	}
 	#social {
 		width:40%;
-		left:-27px;
+		left:3%;
 	}
 	#logo img {
 		margin:5% auto;
@@ -170,11 +174,11 @@ p {
 		min-height:600px;
 	}
 	#container{
-		margin-top:28%;
+		margin-top:10%;
 		height:67%;
 	}
 	#social {
-		left:-14%;
+		left:3%;
 		top:84%;
 	}
 	#social ul li{
@@ -193,7 +197,7 @@ p {
 		height:60%;
 	}
 	#social {
-		left:-8%;
+		left:4%;
 		top:77%;
 	}
 	#social ul li{
