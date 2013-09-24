@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Funksh</title>
+
+<!-- STYLESHEETS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style>
+  @font-face {
+    font-family: revolution;
+    src: url('../funksh/fonts/revolution.ttf') format('truetype');
+    src: url('../funksh/fonts/revolutionMS.eot') format('embedded-opentype');
+    src: url('../funksh/fonts/revolutionFF.otf') format('opentype');  /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+    font-family: georgia;
+    src: url('../funksh/fonts/georgia.ttf') format('truetype');
+  }
+</style>
+</head>
+
+<body>
+	<div id="topBar"></div>
+   <div id="smCont">
+     <div id="sm">
+      	<ul id="navUL">
+      		<a id= "homeLinkAnchor"><li id = "homeLink" class = "whiteText navLinks" >HOME
+      		</li></a>
+              <a id= "inventorLinkAnchor"><li id = "inventorLink" class = "greenText navLinks">INVENTOR
+      		</li></a>
+              <a id= "advLinkAnchor"><li id = "advLink" class = "greenText navLinks">ADVANTAGES
+      		</li></a>
+              <a id= "specsLinkAnchor"><li id = "specsLink" class = "greenText navLinks">SPECS
+      		</li></a>
+              <a id= "orderLinkAnchor"><li id = "orderLink" class = "greenText navLinks">ORDER
+      		</li></a>
+        </ul>
+     </div>
+   </div>
+    
+</body>
+</html>
