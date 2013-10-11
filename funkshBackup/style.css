@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+*
+body,html{
+	margin: 0;
+	min-width: 1250px;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 100%;
+	height: 100%;
+}
+a, a:visited, a:active { 
+	outline: none;
+	border:none;
+	text-decoration:none;
+	color:white;	
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+p, ul{
+	font-family: "Trebuchet MS", sans-serif;
+	font-style:normal;
+}
+
+img{
+	border: 0;
+}
+
+h1, #pixels{
+	font-family: "Trebuchet MS", sans-serif;
+	font-style:normal;
+    /*letter-spacing:5px;*/
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+h2{
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	font-style:normal;
+	text-transform:uppercase;
+    /*letter-spacing:2px;*/
+}
+
+#header h1, #pixels{
+	color: #48941A;
+}
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#social{
+	list-style: none;
+	position: fixed;
+	right: 3%;
+    top: 20%;
+    z-index:999;
+}
+
+#social li {
+	margin-top: 30px;	
+}
+
+#navCont{
+	bottom:5%;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+#nav {
+	margin: 0 auto;
+	text-align:center;
+	background-color:rgba(0,0,0,0.65);
+/*	opacity:0.8;*/
+	border-radius: 10px;
+/*	width:60%;
+	min-width:800px;*/
+	width: 700px;
+	z-index:999;
+	display: block;
+}
+
+#navUL {
+   margin:10px;
+}
+
+#nav ul {
+   padding:10px 0px;
+}
+	
+#nav li{
+	display:inline;
+	list-style:none;	
+	margin: 0 0 0px 20px; 
+	font-size:20px;
+	font-family: "Trebuchet MS", sans-serif;
+    padding-right:10px;
+	letter-spacing:2px;
+}
+
+#nav a {
+	display:inline-block;
+	text-decoration:none;
+}
+
+.greenText{
+	color:#94c33b;	
+}
+.whiteText{
+	color:#fff;	
+}
+
+#header, #intro{
+	width: 100%;
+}
+
+#intro{
+	background: url(images/introImage.jpg) no-repeat fixed;
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+#inventor{
+	background: white;
+	color: white;
+	overflow: hidden;
+	padding: 0;
+	width:100%;
+	height:100%;
+	min-width: 1250px;
+}
+
+#inventorDescription{
+	background: white;
+	width: 50%;
+	height: 100%;
+	float: left;
+	color: rgb(79, 91, 102);
+	overflow-y:auto; 
+}
+
+#inventorDescription p{
+	font-family: "Trebuchet MS", sans-serif;
+	letter-spacing: 1px;
+	line-height: 145%;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-right:10px;
+}
+#inventorDescription h1,
+#inventorDescription h2 {
+	margin-left:50px;
+}
+#inventorDescription h1{
+	margin-top: 50px;
+	margin-bottom:0px;
+}
+#inventorDescription h2{
+	margin-top: 5px;
+	margin-bottom:40px;
+}
+
+#inventorPic{
+	/*background:rgb(0, 192, 197);*/
+	background-image: url(images/kyle_white.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 100%;
+	width:100%;
+	padding:0px;
+	margin:0;
+}
+
+
+#third{
+	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 650px;
+	padding: 100px 0 0 0;	
+}
+
+#fourth{
+	background-color: black;
+	min-width: 1250px;
+	height: 100%;
+	width: 100%;
+}
+
+#fifth{
+	color: black;
+	height: 650px;
+	padding: 0 0 0 0;	
+	background-color: rgb(79, 91, 102);
+   min-width: 1250px;
+   padding-bottom:200px;
+}
+
+#logoContainer{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+	margin-top: -40px;
+  	margin-left: -85px;
+  	height: 230px;
+  	width: 230px;
+  	background-image: url(images/smoke.png);
+	background-color:#94c33b;
+  	opacity: 0.9;
+	border-radius:50%;
+}
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+.funkshPipe{
+   position: relative;
+	width: 350px; 
+	height: 200px;
+	margin:0 auto;
+	top: 300px;
+   visibility: hidden;
+}
+
+#funkshPipeFront {
+   background-image: url(images/animatedPipe/Front_Shadow.png);
+}
+#funkshPipeTop {
+   background-image: url(images/animatedPipe/Top_Shadow.png);
+}
+
+#funkshPipeExplode {
+   background-image: url(images/animatedPipe/Disassemble_Shadow.png);
+}
+
+#pipeViewSelector{
+	margin-top:25px;
+	float:left;
+	padding-left:25px;
+	width:150px;
+   display:none;
+}
+
+#pipeViewSelector ul{
+   margin-top:45px;
+	list-style-type: none;
+   padding:0px;
+   float:left;
+}
+
+#pipeViewSelector li{
+	margin-bottom: 5px;
+	cursor:pointer;
+}
+
+#pipeInfoPane{
+	float:left;
+	width: 35%;
+	height:850px;
+	padding: 20px 0px 0px 30px;
+   display:none;
+}
+.infoPane {
+   display:none;
+   color:white;
+}
+
+#pipeBackground{
+    
+	position:relative;
+	float:left;
+   background-color: white;
+	/*background-color: rgb(43, 105, 167);*/
+   z-index: 100;
+	width:100%;
+/*	height:850px;*/
+	height:900px;
+}
+
+#pipeOverlay{
+/*	padding:50px;
+	padding-right:80px;*/
+	position:relative;
+}
+
+#pipeLogo {
+   display:block;
+   position:relative;
+   top:225px;
+   z-index:100;
+   background-image: url(images/pipeTransparent.png);
+   height:212px;
+   width:317px;
+   margin-left: 40%;
+   cursor:pointer;
+   background-repeat: no-repeat;
+}
+
+#pipeLogo h1 {
+	position: absolute;
+	top: 235px;
+	height: 50px;
+	width:450px;
+	margin:0;
+	margin-left: 25px;
+	font-weight: bold;
+}
+#pipeLogo h1 p{
+	margin-left: -50px;
+	letter-spacing: 2px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: bold;
+}
+
+#tOverlay {
+   position:absolute;
+	float:left;
+}
+
+.buttons {
+   width: 26px;
+	height: 26px;
+	position:absolute;
+	cursor: pointer;
+   display: none;
+	
+   background-image: url(images/funkshButton.png);
+   background-repeat: no-repeat;
+}
+
+.buttonTexts {
+   position:absolute;
+   width:150px;
+   height:100px;
+   font-size:10px;
+   display: none;
+}
+
+#frontButton1{ top:-80px;	left:250px; }
+#frontButton1Text { top:-50px; left:250px; }
+#frontButton2{ top:100px; left:-50px; }
+#frontButton2Text{ top:130px; left:-50px; }
+#frontButton3{ top:100px; left:250px; }
+#frontButton3Text{ top:130px; left:250px; }
+
+#topButton1{ top:-10px;	left:350px; }
+#topButton1Text { top:20px; left:350px; }
+#topButton2{ top:150px; left:0px; }
+#topButton2Text{ top:180px; left:0px; }
+#topButton3{ top:150px; left:300px; }
+#topButton3Text{ top:180px; left:300px; }
+
+#explodeButton1{ top:-10px;	left:300px; }
+#explodeButton1Text { top:20px; left:300px; }
+#explodeButton2{ top:150px; left:0px; }
+#explodeButton2Text{ top:180px; left:0px; }
+#explodeButton3{ top:150px; left:300px; }
+#explodeButton3Text{ top:180px; left:300px; }
+   
+
+#second{
+	background-color:black;
+	margin-bottom:0;
+	padding-bottom: 0;
+}
+#indieVideo{
+	width: 50%;
+	height: inherit;
+	float: left;
+	background-color: black;
+}
+
+#indiePic{
+	width: 50%;
+	float: left;
+	position: relative;
+	height: inherit;
+	background-color: black;
+	background-image: url(images/INDIGOGO.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#indiePic img{
+	width: 100%;
+	height: inherit;
+}
+#indieCampaign{
+	position:absolute;
+	top:65%;
+	left: 20%;
+	color:#FFF;	
+}
+
+#indieCampaign p{
+	font-family: "Trebuchet MS", sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	font-size: 26px;
+	letter-spacing:3px;
+	word-spacing:3px;
+	text-transform:uppercase;
+	text-align:center;
+	
+}
+#indieLink{
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight:200;
+	font-size: 20px;
+	letter-spacing:3px;
+	text-align:center;
+	text-transform:none;
+}
+
+
+/*-----------------Gallery Styling-------------------*/
+
+#gallery{
+	height:inherit;
+	min-width: 1250px;
+	width: 100%;
+}
+.gallerySquare{
+	width: 25%;
+	min-width: 312px;
+	float: left;
+	height: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center 100%;
+	color:#FFF;
+	position: relative;
+}
+
+.galleryCircle{
+	top:0;
+	left:0;
+	text-align:center;
+	margin-top:25%;
+	margin-bottom:25%;
+	margin-left: 18.75%;
+	margin-right: 19%;
+	height:50%;
+	display:none;
+	overflow:hidden;
+	background-repeat: no-repeat;
+}
+
+.whiteScreen {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	display: none;
+	position: absolute;
+}
+
+#image1{
+	border-width:6px;
+	min-width:100%;
+	max-height:100%;
+	border-radius: 50%;
+	
+}
+
+#gallery1{
+	background-image: url(images/gallery/galleryThumbnails/Indestructable.png);
+}
+#gallery2{
+	background-image: url(images/gallery/galleryThumbnails/WATER.png);
+}
+#gallery3{
+	background-image: url(images/gallery/galleryThumbnails/Stylish.png);
+}
+#gallery4{
+	background-image: url(images/gallery/galleryThumbnails/Discrete.png);
+}
+#gallery5{
+	background-image: url(images/gallery/galleryThumbnails/Clean.png);
+}
+#gallery6{
+	background-image: url(images/gallery/galleryThumbnails/Storage.png);
+}
+#gallery7{
+	background-image: url(images/gallery/galleryThumbnails/Air.png);
+}
+#gallery8{
+	background-image: url(images/gallery/galleryThumbnails/Economical.png);
+}
+
+#gallery1 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/indestructible_circle.png);
+}
+#gallery2 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/waterproof_circle.png);
+}
+#gallery3 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/stylish_circle.png);
+}
+#gallery4 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/discreet_circle.png);
+}
+#gallery5 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/easytoclean_circle.png);
+}
+#gallery6 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/storage_circle.png);
+}
+#gallery7 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/airflow_circle.png);
+}
+#gallery8 .galleryCircle{
+	background-size:contain;
+	background-image:url(images/gallery/galleryCircles/economical_circle.png);
+}
+
+#galleryDetailedDesc{
+	padding-left:2%;
+	font-family: "Trebuchet MS", sans-serif;
+	position:relative;
+	top:50px;
+	width:50%;
+	height:60%;
+	color:#fff;
+	display:none;
+}
+#galleryButtonContainer{
+	position:relative;
+	top:50px;
+	left:5%;	
+	width:675px;
+	height:40px;
+	display:none;
+}
+.smallDot{
+	position:relative;
+	float:left;
+	height:40px;
+	width:40px;
+	margin-left:10px;
+	margin-right:10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+#dot1 { background-image:url(images/gallery/galleryCircles/smallCircles/circle1.png); }
+#dot2 { background-image:url(images/gallery/galleryCircles/smallCircles/circle2.png); }
+#dot3 { background-image:url(images/gallery/galleryCircles/smallCircles/circle3.png); }
+#dot4 { background-image:url(images/gallery/galleryCircles/smallCircles/circle4.png); }
+#dot5 { background-image:url(images/gallery/galleryCircles/smallCircles/circle5.png); }
+#dot6 { background-image:url(images/gallery/galleryCircles/smallCircles/circle6.png); }
+#dot7 { background-image:url(images/gallery/galleryCircles/smallCircles/circle7.png); }
+#dot8 { background-image:url(images/gallery/galleryCircles/smallCircles/circle8.png); }

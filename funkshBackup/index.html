@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Funksh</title>
+<!-- STYLESHEETS -->
+
+<link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+  @font-face {
+    font-family: revolution;
+    src: url('../funksh/fonts/revolution.ttf') format('truetype');
+    src: url('../funksh/fonts/revolutionMS.eot') format('embedded-opentype');
+    src: url('../funksh/fonts/revolutionFF.otf') format('opentype');  /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+    font-family: georgia;
+    src: url('../funksh/fonts/georgia.ttf') format('truetype');
+  }
+</style>
+
+<!--JAVASCRIPTS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.flippy.js"></script>
+<script type="text/javascript" src="scripts/jquery.motio.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.flip.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/rotate3ditransform.js"></script>
+<script type="text/javascript" src="scripts/rotate3Di.js"></script>
+<script type="text/javascript" src="scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+<!--<script type="text/javascript" src="scripts/jquery.hotkeys.js"></script>-->
+
+
+
+</head>
+
+<body>
+	<ul id="social">
+		<li><a href="" title" Facebook" ><img src="images/FACEBOOK.png" alt="Link" id="fbLink"/></a></li>
+    <li><a href="" title="Twitter" ><img src="images/TWITTER.png" alt="Link" id="twitterLink"/></a></li>
+    <li><a href="" title="Linked In" ><img src="images/LINKEDIN.png" alt="Link" id="linkedInLink" /></a></li>
+  </ul>
+	
+	<div id="intro">
+    	<div id = "logoContainer">
+	    	<!--<img src = "images/smoke.png" alt = "Logo Image"> -->
+	    </div> <!--.logoContainer-->
+	</div> <!--#intro-->
+	
+	<div id = "inventor" >
+		<div id = "inventorDescription">
+        <h1 class="greenText">INVENTOR</h1>
+        <h2 class="greenText">KYLE BOISELLE</h2>
+        	<p>
+            Growing up in an active and outdoors loving family, athletics and extreme sports were simply a part of my DNA. Definitely a professional hard working family who liked to have fun. Being exposed to their medical, mechanical and entrepreneurial professions have certainly influenced me and become a part of my future.
+          </p>
+          <p>
+            Over the last 20 years, I've been a product sales specialist and trainer in the fitness and tech sales sectors, and have represented some of the worlds most cutting edge technology manufacturers. I've been fortunate as a by product, to have worked with and learned many things from world class athletes, doctors and other technical specialists. The effects of exposure to industry secrets have definitely kept me young and fit.
+          </p>
+          <p> 
+            I've been to 17 cities of the world and lived in five, which has had an impact on my view of the world and ability to communicate to and embrace it's people. I lived in India, Calgary, Los Angeles and now Toronto.
+          </p>
+          <p> 
+            With a purpose, I was always very resourceful, whether it was coming up with ideas or strategies that solved problems, or modifying and inventing something. It seems natural that I would end up founding a company like FUNKSH.
+          </p> 
+          <p> 
+            When I started this company, I envisioned developing functional & innovative products and tools for everyday use. Practical technology is important in our lives because it allows us to focus on and spend time on the important parts of it. The easier it is to use, the more accessible it is for everyone.
+          </p>
+          <p> 
+            My goal is continue to develop products that benefit mankind, with FUNKSH as the platform and continue developing projects and relationships in other areas
+          </p>
+        </div> <!--#inventorDescription-->
+        <div id = "inventorPic">
+        	<!--img src="images/inventorImage.jpg" alt="Inventor"-->
+        </div><!--#inventorPic-->
+	</div> <!--#inventor-->
+
+	<div id="fourth">
+		<div id="gallery">
+			<div class="gallerySquare" id="gallery1"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery2"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery3"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery4"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery5"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery6"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery7"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+      <div class="gallerySquare" id="gallery8"><div class="whiteScreen"></div><div class="galleryCircle"></div></div>
+
+      <div id="galleryDetailedDesc"></div>
+      <div id="galleryButtonContainer">
+      	<div id="dot1" class="smallDot"></div>
+      	<div id="dot2" class="smallDot"></div>
+      	<div id="dot3" class="smallDot"></div>	
+        <div id="dot4" class="smallDot"></div>
+        <div id="dot5" class="smallDot"></div>	
+        <div id="dot6" class="smallDot"></div>
+        <div id="dot7" class="smallDot"></div>
+        <div id="dot8" class="smallDot"></div>
+      </div>
+    </div>
+	</div> 
+	
+	<div id="fifth">
+		<div class="story">
+			<div id="pipeBackground">
+				<div id="pipeViewSelector">
+               <h1 class="greenText">SPECS</h1>
+               <h2 class="greenText">THE PIPE</h2>
+					<ul>
+                    	<li id="sView">+Specs</li>
+						<li id="eView">+Explode Mode</li>
+                        <li id="tView">+Top View</li>
+                        <li id="fView">+Front View</li>
+					</ul>
+				</div>
+				<div id="pipeOverlay">
+               <div class="funkshPipe" id="funkshPipeFront">
+                  <div class="fPipeButtons buttons" id="frontButton1"></div>
+                  <div class="fPipeButtonTexts buttonTexts" id="frontButton1Text">
+                     <p>FRONT TEST 1 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="fPipeButtons buttons" id="frontButton2"></div>
+                  <div class="fPipeButtonTexts buttonTexts" id="frontButton2Text">
+                     <p>FRONT TEST 2 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="fPipeButtons buttons" id="frontButton3"></div>
+                  <div class="fPipeButtonTexts buttonTexts" id="frontButton3Text">
+                     <p>FRONT TEST 3 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+               </div>
+               
+               <div class="funkshPipe" id="funkshPipeTop">
+                  <div class="tPipeButtons buttons" id="topButton1"></div>
+                  <div class="tPipeButtonTexts buttonTexts" id="topButton1Text">
+                     <p>TOP TEST 1 ::::Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="tPipeButtons buttons" id="topButton2"></div>
+                  <div class="tPipeButtonTexts buttonTexts" id="topButton2Text">
+                     <p>TOP TEST 2 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="tPipeButtons buttons" id="topButton3"></div>
+                  <div class="tPipeButtonTexts buttonTexts" id="topButton3Text">
+                     <p>TOP TEST 3 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+               </div>
+               
+               <div class="funkshPipe" id="funkshPipeExplode">
+                  <div class="ePipeButtons buttons" id="explodeButton1"></div>
+                  <div class="ePipeButtonTexts buttonTexts" id="explodeButton1Text">
+                     <p>EXPLODE TEST 1 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="ePipeButtons buttons" id="explodeButton2"></div>
+                  <div class="ePipeButtonTexts buttonTexts" id="explodeButton2Text">
+                     <p>EXPLODE TEST 2 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+                  
+                  <div class="ePipeButtons buttons" id="explodeButton3"></div>
+                  <div class="ePipeButtonTexts buttonTexts" id="explodeButton3Text">
+                     <p>EXPLODE TEST 3 :::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis bibendum sapien, ac feugiat justo vehicula ut. Suspendisse sed orci mi, non consequat felis. Proin. </p>
+                  </div>
+               </div>
+				</div>
+			</div>
+
+			<div id="pipeInfoPane">
+            <!--info pane INTRO-->
+            <div class="infoPane" id="infoPaneIntro">
+               <h1>Welcome</h1>
+               <h2>Explore different functionalities of the pipe</h2>
+               <br />
+               <p>
+                  Select one of the views on the left then click on one of the (+) buttons to learn more.
+               </p>
+            </div>
+            
+            <!--info pane FRONT VIEW-->
+            <div class="infoPane" id="frontButton1Info">
+               <h1>FRONT 1</h1>
+               <h2>testing first button</h2>
+               <br />
+               <p>
+                  text for first front button :::::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="frontButton2Info">
+               <h1>FRONT 2</h1>
+               <h2>testing second button</h2>
+               <br />
+               <p>
+                  text for second front button ::::::  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="frontButton3Info">
+               <h1>FRONT 3</h1>
+               <h2>testing third button</h2>
+               <br />
+               <p>
+                  text for third front button ::::::  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <!--info pane TOP VIEW-->
+            <div class="infoPane" id="topButton1Info">
+               <h1>TOP 1</h1>
+               <h2>testing first button</h2>
+               <br />
+               <p>
+                  text for first top button :::::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="topButton2Info">
+               <h1>TOP 2</h1>
+               <h2>testing second button</h2>
+               <br />
+               <p>
+                  text for second top button ::::::  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="topButton3Info">
+               <h1>TOP 3</h1>
+               <h2>testing third button</h2>
+               <br />
+               <p>
+                  text for third top button ::::::  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <!--info pane EXPLODED VIEW-->
+            <div class="infoPane" id="explodeButton1Info">
+               <h1>EXPLODED 1</h1>
+               <h2>testing first button</h2>
+               <br />
+               <p>
+                  text for first exploded button :::::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="explodeButton2Info">
+               <h1>EXPLODED 2</h1>
+               <h2>testing second button</h2>
+               <br />
+               <p>
+                  text for second exploded button :::::: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+            
+            <div class="infoPane" id="explodeButton3Info">
+               <h1>EXPLODED 3</h1>
+               <h2>testing third button</h2>
+               <br />
+               <p>
+                  text for third exploded button ::::::  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac est ipsum, non ornare velit. Quisque vestibulum nunc vitae erat cursus in placerat arcu scelerisque. Aliquam molestie justo quis dolor malesuada malesuada sollicitudin id leo. Mauris mollis luctus nisi et faucibus. Ut commodo interdum turpis nec suscipit. Mauris eget elit augue, sit amet tempor nibh. Proin auctor enim at tellus auctor eleifend. Donec mollis ipsum eget nunc vulputate molestie. Duis vitae dapibus odio. Aliquam sed mattis nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed turpis vel ligula cursus congue sit amet non nisl.
+               </p>
+               <p>
+                  Nunc ornare ipsum ac arcu ullamcorper eget fringilla quam porttitor. Phasellus sed velit elit, tempus pretium est. Proin eu dolor eget orci vehicula vehicula ac id nisl. Sed id ligula scelerisque eros laoreet euismod. Donec odio libero, varius in gravida at, sagittis eu eros. Sed velit metus, vestibulum non porttitor nec, varius eu diam. Vivamus in tellus neque, sit amet laoreet erat.
+               </p>
+            </div>
+			</div>
+          <div id="pipeLogo">
+            <h1 class="greenText">CLICK THE PIPE<p>TO VIEW THE SPECS</p></h1>
+          </div>
+	    </div> 
+	</div> 
+    <div id="second">
+		  	<video id="indieVideo" poster="images/play_video.png" controls>
+	    		<source src="video/stock.mp4" type="video/mp4">
+          		<source src="video/movie.ogg" type="video/ogg">
+	    	</video>
+	    	<div id="indiePic"> 
+	    		<!--img src="images/INDIGOGO.jpg"> </img-->
+                <div id = "indieCampaign">
+                	<p><a href="http://www.indiegogo.com/360" target="_blank">See Our Indiegogo Campaign</a></p>
+                    <div id="indieLink"><a href="http://www.indiegogo.com/360" target="_blank">www.indiegogo.com/360</a></div>
+                </div>
+                
+	    	</div>
+	 </div>
+   <div id="navCont">
+     <div id="nav">
+      	<ul id="navUL">
+      		<a id= "homeLinkAnchor"><li id = "homeLink" class = "whiteText navLinks" >HOME
+      		</li></a>
+              <a id= "inventorLinkAnchor"><li id = "inventorLink" class = "greenText navLinks">INVENTOR
+      		</li></a>
+              <a id= "advLinkAnchor"><li id = "advLink" class = "greenText navLinks">ADVANTAGES
+      		</li></a>
+              <a id= "specsLinkAnchor"><li id = "specsLink" class = "greenText navLinks">SPECS
+      		</li></a>
+              <a id= "orderLinkAnchor"><li id = "orderLink" class = "greenText navLinks">ORDER
+      		</li></a>
+        </ul>
+     </div>
+   </div>
+    
+</body>
+</html>
